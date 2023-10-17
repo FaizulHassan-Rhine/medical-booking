@@ -1,12 +1,13 @@
-
+import "./app.css";
+import Layout from "./layout/Layout";
 
 function App() {
  
 
   return (
-    <>
-     <h1 className="text-2xl text-green-600">Hello React</h1>
-    </>
+   
+     <Layout/>
+    
   )
 }
 
